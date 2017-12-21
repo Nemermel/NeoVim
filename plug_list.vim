@@ -42,10 +42,10 @@ Plug 'othree/xml.vim'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
-" Scroll
-Plug 'yuttie/comfortable-motion.vim'
-
 Plug 'joonty/vdebug'
 
 " Colorschemes
 Plug 'chriskempson/base16-vim'
+
+"NERDComennter
+Plug 'scrooloose/nerdcommenter'
