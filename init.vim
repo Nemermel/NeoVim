@@ -85,7 +85,6 @@ if $TERM == "xterm-256color"
   set t_Co=256
 endif
 
-
 set background=dark
 colorscheme one
 
@@ -135,6 +134,7 @@ let g:ctrlp_custom_ignore = {
 " Golang
 let g:go_fmt_command = "goimports"
 let g:deoplete#sources#go#gocode_binary = '/home/kovalenkoa/.go/bin'
+autocmd InsertLeave,CompleteDone * if pumvisible() == 0 | pclose | endif
 
 " Leader
 let mapleader="\<SPACE>"
@@ -185,6 +185,8 @@ nnoremap <C-p> :bprevious<CR>
 nmap <Leader>bb :BufExplorer<CR>
 nmap <Leader><Tab> :bnext<CR>
 nmap <Leader>bk :bd<CR>
+nmap <Leader>bk :bnext<CR>
+nmap <Leader>bj :bprevious<CR>
 
 set ignorecase          " Make searching case insensitive
 set smartcase           " ... unless the query has capital letters.
