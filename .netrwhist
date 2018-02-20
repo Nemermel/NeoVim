@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/kovalenkoa/Programming/ruby/chatty/server/app/helpers'
+let g:netrw_dirhist_2='/home/kovalenkoa/Programming/ruby/blog/db/migrations'
+let g:netrw_dirhist_3='/home/kovalenkoa/.sbt/1.0'
+let g:netrw_dirhist_4='/home/kovalenkoa/.sbt'
+let g:netrw_dirhist_5='/home/kovalenkoa/.sbt/1.0'
+let g:netrw_dirhist_6='/home/kovalenkoa/.sbt'
+let g:netrw_dirhist_7='/home/kovalenkoa/.config/awesome'
+let g:netrw_dirhist_8='/usr/local/lib/python2.7/site-packages'
